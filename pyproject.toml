@@ -1,0 +1,17 @@
+[project]
+name = "brcov_ssinha"
+version = "0.0.1"
+authors = [
+  { name="Sandip Sinha", email="amsandip@yahoo.com" },
+]
+description = "A program which ingest a file and spits out the data in a summarized way"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+[build-system]
+requires = ["setuptools>=61.0",'pendulum','pandas','numpy','pytest','mock','jproperties']
+build-backend = "setuptools.build_meta"
